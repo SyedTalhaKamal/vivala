@@ -1,0 +1,498 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* =================================== Header ================================================ */
+.top{
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
+/* =================================== NavBar ================================================ */
+.customNav{
+    background-color: transparent !important;
+}
+.customNav li a{
+    color: black !important;
+    font-size: 16px !important;
+    margin-right: 25px; 
+    font-weight: 400;
+}
+.customNav li a:hover{
+    color: grey !important;
+}
+.myNav{
+    margin-left: 50px;
+}
+#navBtn{
+    outline: none;
+    border: 1px solid grey;
+}
+/* =================================== Slider ================================================ */
+.slider{
+    position: relative;
+}
+.carousel-indicators li {
+    background-color: #c0c1c2!important;
+    padding: 1px;
+    width: 2%;
+}
+
+.carousel-indicators .active {
+    background-color: black !important;
+}
+.bannerParrent{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 100%;
+}
+.bannerMain{
+    border-top: 12px solid white;
+    border-right: 12px solid white;
+    border-bottom: 12px solid white;
+    padding: 60px 50px 60px 87px;
+    
+}
+.bannerMain h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.bannerMain h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
+.bannerMain a.myBtn{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    margin: 20px auto;
+    padding: 12px 22px;
+    text-decoration: none;
+}
+.fa-greater-than {
+    margin-left: 15px;
+    font-size: 10px;
+    color: black;
+    font-weight: 139px;
+    position: relative;
+    bottom: 1px;
+}
+a.myBtn:hover{
+    color: black;
+    background-color: rgb(201, 199, 199);
+    transition: 0.3s ease-in-out;
+}
+/* =================================== Arrival ================================================ */
+.arrival h1{
+    background-image: url('../images/arrivalBack.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 65px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: black;
+    padding: 60px 0 0 0;
+}
+.arrival h2{
+    font-size: 24px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+}
+.arrivalContainer{
+    margin-top: 75px;
+}
+.arrivalImg{
+    width: 100%;
+}
+.arrivalImg2{
+    height: 99.5%;
+    width: 97%;
+    margin-left: 5px;
+
+}
+.arrivalImg3{
+    height: 99.5%;
+    width: 97%;
+    margin-right: 5px;
+
+}
+/* =================================== Story ================================================ */
+.story{
+    margin-top: 75px;
+}
+.storyImg1{
+    margin-top: 170px;
+}
+.storyLine{
+    background-color: #cccccc;
+    padding: 5px;
+    margin-top: 55px;
+}
+.story h1{
+    font-size: 65px;
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.story h2{
+    font-size: 24px;
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.story p{
+    font-size: 18px;
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    margin-top: 40px;
+    padding-left: 50px;
+    border-left: 3px solid black;
+    width: 48%;
+    line-height: 24px;
+}
+a.myBtn{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    margin: 20px auto;
+    padding: 12px 40px;
+    text-decoration: none;
+}
+.storyLine {
+    background-color: #cccccc;
+    padding: 5px;
+    margin-top: 55px;
+    margin-left: 0px;
+}
+.storyLine2 {
+    background-color: #cccccc;
+    padding: 5px;
+    margin-top: 55px;
+    width: 30%;
+    margin-left: 0px;
+}
+/* =================================== Testimonial ================================================ */
+.productHeading{
+    margin: 80px 0 60px 0;
+}
+.testimonial h3{
+    font-size: 65px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.testimonial h4{
+    font-size: 24px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+.testimonialDiv{
+    border: 1px solid #e3e3e3;
+    padding: 50px;
+}
+.testimonial h1{
+    font-size: 21px;
+    color: #363636;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.testimonial h2{
+    font-size: 18px;
+    color: #363636;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.testimonial p{
+    font-size: 22px;
+    color: #363636;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.owl-carousel .owl-item img {
+    width: 30%;
+    display: initial;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: none;
+}
+button.owl-next,button.owl-prev {
+    outline: none;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+.owl-item.active .testimonialDiv {
+    border: none;
+    box-shadow: 1px 1px 9px 0px #dad1d1ab;
+  }
+
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: initial;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.owl-prev {
+  left: -45px;
+}
+.owl-next {
+  right: -45px;
+}
+/* =================================== Instagram ================================================ */
+.insta h1{
+    background-image: url('../images/follow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 65px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: black;
+    padding: 60px 0 0 0;
+}
+.insta h2{
+    font-size: 24px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+}
+.instaContainer{
+    margin-top: 75px;
+}
+.instaImg{
+    width: 100%;
+}
+/* =================================== Subscribe ================================================ */
+.subscribe{
+    margin-top: 75px;
+}
+.subscribe h1{
+    font-size: 65px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: black;
+}
+.subscribe h2{
+    font-size: 18px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    color: #2d2928;
+    margin: 15px 0 50px 0;
+}
+.emailBox{
+    border: 1px solid #e3e3e3;
+    border-radius: 15px;
+    padding: 15px 25px;
+    width: 30%;
+    margin: 0 auto;
+}
+.subscribe a{
+    color: black;
+}
+#emailInput{
+    border: none;
+    width: 100%;
+}
+input#emailInput:focus {
+    border: none;
+}
+#emailInput:focus{
+    outline: none;
+    border: 1px solid #e3e3e3;
+}
+#emailInput::placeholder{
+    color: #c8c8c8
+}
+/* =================================== Footer ================================================ */
+.footer{
+    margin-top: 75px;
+}
+.socialIcons {
+    color: white;
+    background: black;
+    border-radius: 100%;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .socialIcons:hover {
+    color: white;
+    background: #c8c8c8;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .footer-ul>li {
+    display: inline-block;
+    padding-left: 10px;
+  }
+  .copy{
+      border-top: 1px solid #bfbfbf;
+  }
+  .copy p{
+      color: #363636;
+      font-size: 17px;
+  }
+  
+/* =================================== Media Queries ================================================ */
+@media(max-width:1199px){
+    .bannerMain{
+        padding: 40px 50px 40px 87px;
+    }
+    .bannerMain h1 {
+        font-size: 40px;
+    }
+    .story h1 {
+        margin-top: 50px;
+    }
+    .story p{
+        width: 100%;
+    }
+    .owl-prev {
+        left: -30px;
+      }
+      .owl-next {
+        right: -40px;
+      }
+      .arrows{
+          width: 15px;
+      }
+}
+@media(max-width:991px){
+    .customNav li a{
+        margin-right: 0px;
+    }
+    .bannerMain{
+    padding: 30px 40px 30px 67px;
+    border: none;
+    } 
+    .bannerMain h1 {
+        font-size: 30px;
+    }
+    .bannerMain h3{
+        font-size: 20px;
+    }
+    .arrivalContainer,.instaContainer,.subscribe,.footer{
+        margin-top: 50px;
+    }
+    .arrivalImg2,.instaImg2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .arrivalImg3,.instaImg3{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .storyImg1 {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .story{
+        margin-top: 50px;
+    }
+    .story h1{
+        margin: 0;
+    }
+    .story h2 {
+        margin: 0;
+    }
+    .story p{
+        margin-top: 25px;
+        padding-left: 20px;
+    }
+    .storyLine,.storyLine2 {
+        display: none;
+    }
+    .productHeading {
+        margin: 20px 0 20px 0;
+    }
+    .subscribe h2 {
+        margin: 15px 0 30px 0;
+    }
+    .emailBox {
+        width: 50%;
+    }
+    .arrows {
+        display: none
+      }
+      .owl-theme .owl-dots .owl-dot {
+        display: initial;
+        outline: none;
+    }
+}
+@media(max-width:767px){
+    .bannerParrent{
+        position: static;
+        transform: translatey(0);
+        background-color: #f0f1f3;
+    }
+    .arrivalContainer,.instaContainer,.subscribe,.footer{
+        margin-top: 30px;
+    }
+    #bannerImg{
+        display: none !important;
+    }
+    .story{
+        margin-top: 30px;
+    }
+    .storyImg2{
+        width: 100%;
+    }
+    .testimonialDiv {
+        padding: 18px;
+    }
+    .emailBox {
+        width: 60%;
+    }
+}
+@media(max-width:480px){
+    .arrival h1,.insta h1,.testimonial h3,.story h1,.subscribe h1{
+        font-size: 50px;
+    }
+    .emailBox {
+        width: 70%;
+    }
+}
